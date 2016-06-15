@@ -45,7 +45,8 @@ public class ServidorContador {
                 }
             }
             
-            salida.writeUTF("Numero de vocales: "+numVocales+", Numero de consonantes: "+numConsonantes+"\n");
+            salida.writeUTF("Número de vocales: "+numVocales);
+            salida.writeUTF("Número de consonantes: "+numConsonantes);
             
             s.close();
             ss.close();
